@@ -7,7 +7,7 @@ export default function Main() {
 
       <div className='booking'>
         {/* <img src='https://mohammedthoufiq.simplybook.me/v2/themes/assets/img/categories/appearance.jpg' alt=''></img> */}
-      <h1 >Muhammathrafiq</h1>
+      <h1 >Muhammathrafiq-booking Application</h1>
       <button>Book Now <i className="fa fa-check fa-check"></i></button>
       </div>
       
