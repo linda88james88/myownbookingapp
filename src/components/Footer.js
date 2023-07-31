@@ -3,7 +3,7 @@ import React from 'react'
 export default function Footer() {
   return (
     <footer className='footer'>
-      <div className='container'>
+      <div className='container-Footer'>
         <div id='box1' className='box'>
           <p  id='F-heading'>Opening Hours</p>
           <table>

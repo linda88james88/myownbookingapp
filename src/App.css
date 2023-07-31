@@ -1,3 +1,4 @@
+
 /* /////////HEADER//////////// */
   nav{
     text-align: right;
@@ -6,7 +7,12 @@
   .H-Name{
     margin: 20px 15px 20px 15px;
   }
- 
+  .profile_button{
+     background-color: #337ab7;
+     color: black;
+     height: 30px;
+     width: 150px;;
+  }
 
 /* //////////Main////////////// */
 .booking{
@@ -14,7 +20,7 @@
   text-align: center;
   border: 50px;
 }
-button{
+.button_main{
     background-color: #054875;
     color: #e1e8e0;
     margin: 50px;
@@ -22,18 +28,38 @@ button{
 
   }
 /* /////////FOOTER//////////// */ 
-.container {
+.button_service1{
+margin: 5px;
+padding: 10px;
+width: 240px;
+}
+.button_service2{
+  margin: 5px;
+  padding: 10px;
+  width: 240px;
+  background-color: #054875;
+  }
+.search-div{
+  background-color: white;
+}
+.search{
+  padding: 10px;
+  margin: 10px;
+}
+.container-Footer,.main-service-div {
+  float: flex;
   max-width: 1366px;
   height: 250px;
   background-color: #e1e8e0;
-  /* background-color:red; */
+ 
   padding: 30px;
 }
-.container div {
+.container-Footer div {
   float: left;
   width: 20%;
   height: 260px;
 }
+
 #box1,#box2,#box3 {
   background-color: white;
   margin-left: 30px;
@@ -43,11 +69,12 @@ button{
   box-sizing: border-box;
   color: #333333;  
   box-sizing: border-box;
-  width:auto;
+  width:max-content;
   text-align: left;
   font-family: "Noto Sans", sans-serif;
   font-weight: 400;
   font-size: 18px;
+  
 }
 #contact{
   color: #337ab7;
@@ -55,4 +82,14 @@ button{
 #F-heading{
   font-weight:bold;
 }
-
+.container-review{
+  align-items: right  ;
+  background-color: #e1e8e0;
+  padding: 30px;
+}
+.table-review{
+  max-width: 500px;
+}
+.table-tr{
+  background-color: #337ab7;
+}
