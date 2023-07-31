@@ -26,7 +26,7 @@ export default function MemberShip() {
     </div>
     <div id='box3'>
     <h3>CocoRio Club</h3>
-    <p><FontAwesomeIcon icon="fa-duotone fa-list" />Session</p>
+   
     <p>1 month,Renewal £50.00</p>
     <button className='button_service1'>Starts from 26-07-2023</button><br></br>
     <button className='button_service2'>Starts from £29.99</button>
